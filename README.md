@@ -28,12 +28,12 @@ git clone https://github.com/<your-username>/MovieVerse.git
 cd MovieVerse
 
 
-Install dependencies:
+## Install dependencies:
 
 npm install
 
 
-Run the development server:
+## Run the development server:
 
 npm run dev
 
@@ -41,7 +41,7 @@ npm run dev
 Open http://localhost:5173/
  to view the app locally.
 
-🚀 Deployment (GitHub Pages)
+## 🚀 Deployment (GitHub Pages)
 
 To build and deploy the app:
 
@@ -52,7 +52,7 @@ npm run deploy
 The app will be live at:
 (https://kabir-asija.github.io/MovieVerse/)
 
-📁 Project Structure
+## 📁 Project Structure
 MovieVerse/
 ├── public/
 │   └── Logo.png
@@ -66,7 +66,7 @@ MovieVerse/
 ├── vite.config.js
 └── tailwind.config.js
 
-🌐 Router Setup
+## 🌐 Router Setup
 
 React Router is configured with a basename for GitHub Pages:
 
@@ -76,27 +76,3 @@ export default defineConfig({
   base: '/MovieVerse/',
   plugins: [react()],
 })
-
-
-main.jsx
-
-import { BrowserRouter } from 'react-router-dom';
-
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename="/MovieVerse">
-    <App />
-  </BrowserRouter>
-);
-
-📃 License
-
-This project is open source under the MIT License
-.
-
-🙌 Acknowledgements
-
-React
-
-Vite
-
-Tailwind CSS
