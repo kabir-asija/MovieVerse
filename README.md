@@ -23,7 +23,7 @@ Deployed on **GitHub Pages**:
 
 1. **Clone the repo:**
 
-```bash
+bash
 git clone https://github.com/<your-username>/MovieVerse.git
 cd MovieVerse
 
