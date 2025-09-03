@@ -2,6 +2,7 @@ import React from "react";
 import { TbLocationCheck } from "react-icons/tb";
 import { CgMenuLeftAlt } from "react-icons/cg";
 import { Link } from "react-router-dom";
+import logo from '/Logo.png'
 
 const Navbar = () => {
   return (
@@ -12,7 +13,7 @@ const Navbar = () => {
             <div className="bg-[#1c1c24] w-full h-15 flex items-center justify-between ">
               <div className="logo flex items-center sm:gap-2 md:gap-6 lg:gap-12">
                 <div className="flex items-center gap-1">
-                  <img src="/Logo.png" className="w-13 invert" alt="logo" />
+                  <img src={logo} className="w-13 invert" alt="logo" />
                 </div>
                 <div className="hidden sm:block menu text-white">
                   <ul className="flex sm:gap-2 md:gap-8 font-normal cursor-pointer ">
